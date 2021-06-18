@@ -1,0 +1,110 @@
+header {
+    background-color: #FFF;
+    height: 40px;
+    text-align: right;
+}
+.action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: transform 100ms linear;
+}
+
+.action:hover {
+    transform: scale(0.90);
+}
+section {
+    color: #fff; 
+}
+.back {
+    background-color: #000;
+    height: 1400px;
+}
+
+.maki {
+    height: 300px;
+    width: 300px;
+    position:absolute;
+	left: 60%;
+	top:30%;   
+}
+.maior {
+    position:absolute;
+    font-family:'Varela Round', sans-serif;
+    font-size: 70px;
+    left: 300px;
+    top: 30%;
+}
+.menor {
+    position:absolute;
+    font-family:'Varela Round', sans-serif;
+    font-size: 30px;
+    left: 250px;
+    top: 50%;
+}
+.medio {
+    position:absolute;
+    font-family:'Varela Round', sans-serif;
+    font-size: 30px;
+    left: 270px;
+    top: 60%;
+}
+.grande {
+    position:absolute;
+    font-family:'Varela Round', sans-serif;
+    font-size: 30px;
+    left: 250px;
+    top: 70%;
+}
+.container {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 500px;
+}
+.container2 {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 500px;
+}
+
+.maior2 {
+    position:absolute;
+    font-family:'Varela Round', sans-serif;
+    font-size: 70px;
+    left: 300px;
+    top: 100%;
+}
+.menor2 {
+    position:absolute;
+    font-family:'Varela Round', sans-serif;
+    font-size: 30px;
+    left: 250px;
+    top: 120%;
+}
+.medio2 {
+    position:absolute;
+    font-family:'Varela Round', sans-serif;
+    font-size: 30px;
+    left: 270px;
+    top: 130%;
+}
+.grande2 {
+    position:absolute;
+    font-family:'Varela Round', sans-serif;
+    font-size: 30px;
+    left: 250px;
+    top: 140%;
+}
+.sash {
+    height: 300px;
+    width: 300px;
+    position:absolute;
+	left: 60%;
+	top:100%;  
+}
